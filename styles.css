@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/* ------------- */
+/*     Reset     */
+/* ------------- */
+
+/* box-sizing, margin and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* make images easier to work with */
+img {
+    display: block;
+    width: 350px;
+    height: auto;
+}
+
+/* Set core body defaults */
+body {
+    height: 100dvh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: url(img/bg-sheep.jpg);
+    font-family: 'Sofia', cursive;
+    font-weight: 400;
+    text-align: center;
+  }
+
+/* ------------ */
+/*  Components  */
+/* ------------ */
+
+.content {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color: #e79e4fd2;
+    padding: 4rem 2rem;
+    width: 450px;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ .title {
+    color : #0a043cd5;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.counter {
+    display: block;
+    font-size: 4rem;
+    font-family: serif;
+}
+
+
+button {
+    font: inherit;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.15rem;
+    background-color: #EFE3D3;
+}
+
+.btn-container {
+    margin: .75rem 0;
+}
+
+.strCount {
+    font-size: 1.75rem;
+}
