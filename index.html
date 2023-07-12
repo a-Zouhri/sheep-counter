@@ -11,13 +11,13 @@
 <body>
     <main class="content">
         <div class="container">
-            <h1 class="title">How Many Sheep Jumped The Fence? <span class="counter">0</span></h1>
+            <h1 class="title">How Many Sheep Jumped The Fence? <span id="counter">0</span></h1>
             <img src="img/sheep.gif" alt="sheep jumping over fence">
             <div class="btn-container">
-                <button class="increment-btn">1 More Sheep</button>
-                <button class="save-btn">Herd The sheep</button>
+                <button class="increment-btn" onclick="increment()">1 More Sheep</button>
+                <button class="save-btn" onclick="save()">Herd The sheep</button>
             </div>
-            <p class="strCount">You have returned : </p>
+            <p id="strCount">You have returned : </p>
         </div>
     </main>
     <script src="index.js"></script>

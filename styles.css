@@ -28,6 +28,7 @@ body {
     font-family: 'Sofia', cursive;
     font-weight: 400;
     text-align: center;
+    color : #0a043cd5;
   }
 
 /* ------------ */
@@ -53,12 +54,11 @@ body {
 
 
  .title {
-    color : #0a043cd5;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.counter {
+#counter {
     display: block;
     font-size: 4rem;
     font-family: serif;
@@ -79,6 +79,6 @@ button {
     margin: .75rem 0;
 }
 
-.strCount {
+#strCount {
     font-size: 1.75rem;
 }
